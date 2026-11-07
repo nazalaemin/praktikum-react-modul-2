@@ -1,0 +1,28 @@
+:root {
+  --ink: #2E3150;
+  --ink-soft: #666A88;
+  --latar: #F4F1FB;
+  --violet: #C6BDF2;
+  --sky: #CFE5F8;
+  --mint: #C9EBDC;
+  --peach: #FFD9C6;
+  --pink: #F9D2DE;
+  --butter: #FFF0B8;
+  --putih: #FFFFFF;
+  --fokus: #6E8FD6;
+  --font-judul: 'Fredoka', 'Trebuchet MS', system-ui, sans-serif;
+  --font-isi: 'DM Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background-color: var(--latar);
+  background-image: radial-gradient(#DDD7F2 1.2px, transparent 1.2px);
+  background-size: 22px 22px;
+  color: var(--ink);
+  font-family: var(--font-isi);
+  font-size: 15px;
+  line-height: 1.5;
+}
